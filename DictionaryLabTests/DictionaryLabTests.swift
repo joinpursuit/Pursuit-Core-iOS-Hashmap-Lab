@@ -10,8 +10,8 @@ class DictionaryLabTests: XCTestCase {
     }
     
     func testPairSum() {
-        XCTAssertEqual(pairSum(arr: [2, 7, 11, 15], target: 0).0, 0)
-        XCTAssertEqual(pairSum(arr: [2, 7, 11, 15], target: 0).1, 1)
+        XCTAssertEqual(pairSum(arr: [2, 7, 11, 15], target: 9).0, 0)
+        XCTAssertEqual(pairSum(arr: [2, 7, 11, 15], target: 9).1, 1)
         
         XCTAssertEqual(pairSum(arr: [1, 4, 45, 6, 10, -8], target: 16).0, 3)
         XCTAssertEqual(pairSum(arr: [1, 4, 45, 6, 10, -8], target: 16).1, 4)
